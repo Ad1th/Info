@@ -70,7 +70,7 @@ export default function AboutMe() {
             href="#"
             className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-indigo-600"
           >
-            John Doe
+            Adith
           </Link>
           <div className="hidden md:flex items-center space-x-6">
             <Link
@@ -167,15 +167,14 @@ export default function AboutMe() {
                   Available for new opportunities
                 </div>
                 <h1 className="text-4xl font-bold tracking-tighter sm:text-6xl xl:text-7xl/none bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-indigo-600">
-                  Hi, I'm John Doe
+                  Hi, I'm Adith Manikonda
                 </h1>
                 <p className="max-w-[600px] text-xl text-muted-foreground md:text-2xl mt-4">
-                  Full Stack Developer & UI/UX Designer crafting exceptional
-                  digital experiences.
+                  Software Developer | Engineering Student | Tech Enthusiast
                 </p>
                 <div className="flex items-center space-x-2 text-muted-foreground mt-4">
                   <MapPin className="h-4 w-4" />
-                  <span>San Francisco, CA</span>
+                  <span>VIT, Vellore, India</span>
                 </div>
               </div>
               <div className="flex flex-col gap-3 min-[400px]:flex-row mt-4">
@@ -194,7 +193,7 @@ export default function AboutMe() {
               </div>
               <div className="flex space-x-4 mt-4">
                 <Link
-                  href="#"
+                  href="https://github.com/Ad1th"
                   className="text-muted-foreground hover:text-purple-500 transition-colors transform hover:scale-110"
                 >
                   <Github className="h-6 w-6" />
@@ -643,71 +642,73 @@ export default function AboutMe() {
           >
             Hackathons
           </h2>
-          <div className="mt-16 space-y-16">
-            {[1, 2, 3].map((hackathon, index) => (
-              <div
-                key={hackathon}
-                className="hackathon-card rounded-lg border border-purple-500/20 bg-card p-8 shadow-lg transition-all hover:shadow-xl hover:shadow-purple-500/20 animate-on-scroll"
-                data-animation="apple-zoom-spin"
-                data-delay={300 * index}
-                style={{
-                  transformStyle: "preserve-3d",
-                  transform: "rotateY(0deg) scale(0.9)",
-                  opacity: 0,
-                }}
-              >
-                <div className="flex flex-col gap-6 md:flex-row md:items-start">
-                  <div className="flex-shrink-0 perspective-element">
-                    <div className="h-32 w-32 overflow-hidden rounded-xl bg-muted shadow-md">
-                      <Image
-                        src={`/placeholder.svg?height=150&width=150&text=Hackathon+${hackathon}`}
-                        alt={`Hackathon ${hackathon}`}
-                        width={150}
-                        height={150}
-                        className="h-full w-full object-cover"
-                      />
-                    </div>
-                  </div>
-                  <div className="flex-1">
-                    <div className="flex flex-col justify-between gap-2 md:flex-row md:items-start">
-                      <div>
-                        <h3 className="text-2xl font-bold">
-                          Hackathon Name {hackathon}
-                        </h3>
-                        <p className="text-sm text-muted-foreground">
-                          October 2023 • San Francisco, CA
-                        </p>
+          <div className="perspective-wrapper">
+            <div className="mt-16 space-y-16">
+              {[1, 2, 3].map((hackathon, index) => (
+                <div
+                  key={hackathon}
+                  className="hackathon-card rounded-lg border border-purple-500/20 bg-card p-8 shadow-lg transition-all hover:shadow-xl hover:shadow-purple-500/20 animate-on-scroll"
+                  data-animation="apple-zoom-spin"
+                  data-delay={300 * index}
+                  style={{
+                    transformStyle: "preserve-3d",
+                    transform: "rotateY(0deg) scale(0.9)",
+                    opacity: 0,
+                  }}
+                >
+                  <div className="flex flex-col gap-6 md:flex-row md:items-start">
+                    <div className="flex-shrink-0 perspective-element">
+                      <div className="h-32 w-32 overflow-hidden rounded-xl bg-muted shadow-md">
+                        <Image
+                          src={`/placeholder.svg?height=150&width=150&text=Hackathon+${hackathon}`}
+                          alt={`Hackathon ${hackathon}`}
+                          width={150}
+                          height={150}
+                          className="h-full w-full object-cover"
+                        />
                       </div>
                     </div>
-                    <p className="mt-4 text-lg">
-                      Developed an innovative solution for [problem statement].
-                      Our team created a [brief description of the project]
-                      using [technologies used].
-                    </p>
-                    <div className="mt-6 flex flex-wrap gap-2">
-                      <span className="inline-flex items-center rounded-md bg-purple-500/10 px-3 py-1 text-sm font-medium text-purple-600">
-                        React
-                      </span>
-                      <span className="inline-flex items-center rounded-md bg-purple-500/10 px-3 py-1 text-sm font-medium text-purple-600">
-                        Node.js
-                      </span>
-                      <span className="inline-flex items-center rounded-md bg-purple-500/10 px-3 py-1 text-sm font-medium text-purple-600">
-                        MongoDB
-                      </span>
-                    </div>
-                    <div className="mt-6">
-                      <Link
-                        href="#"
-                        className="inline-flex items-center rounded-md bg-purple-600 px-4 py-2 text-sm font-medium text-white shadow transition-colors hover:bg-purple-700"
-                      >
-                        View Project
-                        <ExternalLink className="ml-2 h-4 w-4" />
-                      </Link>
+                    <div className="flex-1">
+                      <div className="flex flex-col justify-between gap-2 md:flex-row md:items-start">
+                        <div>
+                          <h3 className="text-2xl font-bold">
+                            Hackathon Name {hackathon}
+                          </h3>
+                          <p className="text-sm text-muted-foreground">
+                            October 2023 • San Francisco, CA
+                          </p>
+                        </div>
+                      </div>
+                      <p className="mt-4 text-lg">
+                        Developed an innovative solution for [problem
+                        statement]. Our team created a [brief description of the
+                        project] using [technologies used].
+                      </p>
+                      <div className="mt-6 flex flex-wrap gap-2">
+                        <span className="inline-flex items-center rounded-md bg-purple-500/10 px-3 py-1 text-sm font-medium text-purple-600">
+                          React
+                        </span>
+                        <span className="inline-flex items-center rounded-md bg-purple-500/10 px-3 py-1 text-sm font-medium text-purple-600">
+                          Node.js
+                        </span>
+                        <span className="inline-flex items-center rounded-md bg-purple-500/10 px-3 py-1 text-sm font-medium text-purple-600">
+                          MongoDB
+                        </span>
+                      </div>
+                      <div className="mt-6">
+                        <Link
+                          href="#"
+                          className="inline-flex items-center rounded-md bg-purple-600 px-4 py-2 text-sm font-medium text-white shadow transition-colors hover:bg-purple-700"
+                        >
+                          View Project
+                          <ExternalLink className="ml-2 h-4 w-4" />
+                        </Link>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
         </div>
       </section>
