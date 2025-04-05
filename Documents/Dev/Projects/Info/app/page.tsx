@@ -564,7 +564,6 @@ export default function AboutMe() {
                 </div>
               </div>
             </div>
-
             {/* Project 2 */}
             <div
               className="group relative overflow-hidden rounded-lg border border-purple-500/20 bg-card shadow-sm transition-all hover:shadow-md hover:shadow-purple-500/10 hover:-translate-y-2 animate-on-scroll"
@@ -574,7 +573,7 @@ export default function AboutMe() {
               <div className="aspect-video w-full overflow-hidden">
                 <Image
                   src="/projects/taskmaster-thumbnail.jpg"
-                  alt="TaskMaster - Project Management Tool"
+                  alt="Threddit"
                   width={500}
                   height={300}
                   className="object-cover transition-transform group-hover:scale-105"
@@ -625,7 +624,6 @@ export default function AboutMe() {
                 </div>
               </div>
             </div>
-
             {/* Project 3 */}
             <div
               className="group relative overflow-hidden rounded-lg border border-purple-500/20 bg-card shadow-sm transition-all hover:shadow-md hover:shadow-purple-500/10 hover:-translate-y-2 animate-on-scroll"
@@ -635,7 +633,7 @@ export default function AboutMe() {
               <div className="aspect-video w-full overflow-hidden">
                 <Image
                   src="/projects/fittrack-thumbnail.jpg"
-                  alt="FitTrack - Fitness Tracking App"
+                  alt="HOSPITECH"
                   width={500}
                   height={300}
                   className="object-cover transition-transform group-hover:scale-105"
@@ -680,7 +678,6 @@ export default function AboutMe() {
                 </div>
               </div>
             </div>
-
             {/* Project 4 */}
             <div
               className="group relative overflow-hidden rounded-lg border border-purple-500/20 bg-card shadow-sm transition-all hover:shadow-md hover:shadow-purple-500/10 hover:-translate-y-2 animate-on-scroll"
@@ -690,7 +687,7 @@ export default function AboutMe() {
               <div className="aspect-video w-full overflow-hidden">
                 <Image
                   src="/projects/cryptotracker-thumbnail.jpg"
-                  alt="CryptoTracker - Cryptocurrency Dashboard"
+                  alt="EchoChamber"
                   width={500}
                   height={300}
                   className="object-cover transition-transform group-hover:scale-105"
@@ -739,7 +736,6 @@ export default function AboutMe() {
                 </div>
               </div>
             </div>
-
             {/* Project 5 */}
             <div
               className="group relative overflow-hidden rounded-lg border border-purple-500/20 bg-card shadow-sm transition-all hover:shadow-md hover:shadow-purple-500/10 hover:-translate-y-2 animate-on-scroll"
@@ -749,7 +745,7 @@ export default function AboutMe() {
               <div className="aspect-video w-full overflow-hidden">
                 <Image
                   src="/projects/aiwriter-thumbnail.jpg"
-                  alt="AIWriter - Content Generation Tool"
+                  alt="Snek"
                   width={500}
                   height={300}
                   className="object-cover transition-transform group-hover:scale-105"
@@ -795,7 +791,6 @@ export default function AboutMe() {
                 </div>
               </div>
             </div>
-
             {/* Project 6 */}
             <div
               className="group relative overflow-hidden rounded-lg border border-purple-500/20 bg-card shadow-sm transition-all hover:shadow-md hover:shadow-purple-500/10 hover:-translate-y-2 animate-on-scroll"
@@ -805,7 +800,7 @@ export default function AboutMe() {
               <div className="aspect-video w-full overflow-hidden">
                 <Image
                   src="/projects/smarthome-thumbnail.jpg"
-                  alt="SmartHome - IoT Control Panel"
+                  alt="KonectUs"
                   width={500}
                   height={300}
                   className="object-cover transition-transform group-hover:scale-105"
@@ -849,7 +844,6 @@ export default function AboutMe() {
                 </div>
               </div>
             </div>
-
             {/* Project 7 */}
             <div
               className="group relative overflow-hidden rounded-lg border border-purple-500/20 bg-card shadow-sm transition-all hover:shadow-md hover:shadow-purple-500/10 hover:-translate-y-2 animate-on-scroll"
@@ -859,7 +853,7 @@ export default function AboutMe() {
               <div className="aspect-video w-full overflow-hidden">
                 <Image
                   src="/projects/edulearn-thumbnail.jpg"
-                  alt="EduLearn - E-Learning Platform"
+                  alt="EcoSync"
                   width={500}
                   height={300}
                   className="object-cover transition-transform group-hover:scale-105"
@@ -910,7 +904,6 @@ export default function AboutMe() {
                 </div>
               </div>
             </div>
-
             {/* Project 8 */}
             <div
               className="group relative overflow-hidden rounded-lg border border-purple-500/20 bg-card shadow-sm transition-all hover:shadow-md hover:shadow-purple-500/10 hover:-translate-y-2 animate-on-scroll"
@@ -920,7 +913,7 @@ export default function AboutMe() {
               <div className="aspect-video w-full overflow-hidden">
                 <Image
                   src="/projects/travelbuddy-thumbnail.jpg"
-                  alt="TravelBuddy - Trip Planning App"
+                  alt="SevaVerse"
                   width={500}
                   height={300}
                   className="object-cover transition-transform group-hover:scale-105"
@@ -965,7 +958,6 @@ export default function AboutMe() {
                 </div>
               </div>
             </div>
-
             {/* Project 9 */}
             <div
               className="group relative overflow-hidden rounded-lg border border-purple-500/20 bg-card shadow-sm transition-all hover:shadow-md hover:shadow-purple-500/10 hover:-translate-y-2 animate-on-scroll"
@@ -975,7 +967,7 @@ export default function AboutMe() {
               <div className="aspect-video w-full overflow-hidden">
                 <Image
                   src="/projects/musicstudio-thumbnail.jpg"
-                  alt="MusicStudio - Digital Audio Workstation"
+                  alt="CropLink"
                   width={500}
                   height={300}
                   className="object-cover transition-transform group-hover:scale-105"
@@ -1029,8 +1021,7 @@ export default function AboutMe() {
                 </div>
               </div>
             </div>
-
-            {/* Project 10 */}
+            {/* Project 10
             <div
               className="group relative overflow-hidden rounded-lg border border-purple-500/20 bg-card shadow-sm transition-all hover:shadow-md hover:shadow-purple-500/10 hover:-translate-y-2 animate-on-scroll"
               data-animation="fade-up"
@@ -1080,7 +1071,7 @@ export default function AboutMe() {
                   </Link>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
@@ -1095,45 +1086,58 @@ export default function AboutMe() {
             className="text-3xl font-bold tracking-tighter text-center sm:text-4xl md:text-5xl bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-indigo-600 animate-on-scroll"
             data-animation="fade-up"
           >
-            Achievements
+            Achievements & Certifications
           </h2>
           <div className="mt-16 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
             {[
               {
-                title: "Tech Innovation Award",
+                title:
+                  "Cent Percent Attendance – Vellore Institute of Technology (2024–25)",
+                year: "2024-25",
+                description:
+                  "Awarded a Certificate of Appreciation for achieving 100% attendance in the academic year 2024–25 in B.Tech. Computer Science and Engineering (Information Security).",
+              },
+              {
+                title: "First Place in Hackathon – CodeWars",
+                year: "2024",
+                description:
+                  "Won a hackathon - CodeWars - Conducted by NPS KRM.",
+              },
+              {
+                title: "PC Building Competition - Second Place",
                 year: "2023",
                 description:
-                  "Recognized for developing an innovative solution that improved efficiency by 40%.",
+                  "Achieved second place in a competitive PC building event, hosted by NPS HSR.",
               },
               {
-                title: "Open Source Contributor",
-                year: "2022",
+                title: "Python Certification",
+                year: "2025",
                 description:
-                  "Contributed to several major open source projects with over 500 commits.",
+                  "Recieved a certification in Python programming from HackerRank.",
               },
               {
-                title: "Speaker at TechConf",
-                year: "2021",
+                title: "SQL Basic Skill Certification",
+                year: "2025",
                 description:
-                  "Delivered a keynote presentation on modern web development practices.",
+                  "Received a certification in SQL (Basic) from HackerRank.",
               },
               {
-                title: "Published Research Paper",
+                title: "SQL Intermeddiate Skill certification",
+                year: "2025",
+                description:
+                  "Received a certification in SQL (Intermediate) from HackerRank.",
+              },
+              {
+                title: "Use AI Builder and Power Apps to Process Invoice Data",
                 year: "2020",
                 description:
-                  "Co-authored a research paper on AI applications in web development.",
+                  "Received a Certificate of Completion for a course on using AI Builder and Power Apps to process invoice data from Coursera.",
               },
               {
-                title: "Hackathon Winner",
+                title: "Virtual Internship in Mechanical Engineering",
                 year: "2019",
                 description:
-                  "Won first place at the Global Code Challenge for an innovative healthcare solution.",
-              },
-              {
-                title: "Certified Cloud Architect",
-                year: "2018",
-                description:
-                  "Earned advanced certification in cloud architecture and deployment.",
+                  "Completed a virtual internship in Mechanical Engineering by Mindler.",
               },
             ].map((achievement, index) => (
               <div
@@ -1144,7 +1148,7 @@ export default function AboutMe() {
               >
                 <div className="flex items-start space-x-4">
                   <div className="mt-1 flex-shrink-0">
-                    <Award className="h-6 w-6 text-purple-500" />
+                    <Award className="h-9 w-9 text-purple-500" />
                   </div>
                   <div>
                     <h3 className="text-xl font-bold">{achievement.title}</h3>
@@ -1160,7 +1164,7 @@ export default function AboutMe() {
         </div>
       </section>
 
-      {/* Hackathons Section with Apple-style animations */}
+      {/* Hackathons Section */}
       <section id="hackathons" className="py-20 md:py-32 perspective">
         <div className="container px-4 md:px-6">
           <h2
@@ -1171,70 +1175,249 @@ export default function AboutMe() {
           </h2>
           <div className="perspective-wrapper">
             <div className="mt-16 space-y-16">
-              {[1, 2, 3].map((hackathon, index) => (
-                <div
-                  key={hackathon}
-                  className="hackathon-card rounded-lg border border-purple-500/20 bg-card p-8 shadow-lg transition-all hover:shadow-xl hover:shadow-purple-500/20 animate-on-scroll"
-                  data-animation="apple-zoom-spin"
-                  data-delay={300 * index}
-                  style={{
-                    transformStyle: "preserve-3d",
-                    transform: "rotateY(0deg) scale(0.9)",
-                    opacity: 0,
-                  }}
-                >
-                  <div className="flex flex-col gap-6 md:flex-row md:items-start">
-                    <div className="flex-shrink-0 perspective-element">
-                      <div className="h-32 w-32 overflow-hidden rounded-xl bg-muted shadow-md">
-                        <Image
-                          src={`/placeholder.svg?height=150&width=150&text=Hackathon+${hackathon}`}
-                          alt={`Hackathon ${hackathon}`}
-                          width={150}
-                          height={150}
-                          className="h-full w-full object-cover"
-                        />
+              {/* Hackathon 1 */}
+              <div
+                className="hackathon-card rounded-lg border border-purple-500/20 bg-card p-8 shadow-lg transition-all hover:shadow-xl hover:shadow-purple-500/20 animate-on-scroll"
+                data-animation="apple-zoom-spin"
+                data-delay={300}
+                style={{
+                  transformStyle: "preserve-3d",
+                  // Don't set transform and opacity inline - let the CSS and JavaScript handle it
+                }}
+              >
+                <div className="flex flex-col gap-6 md:flex-row md:items-start">
+                  <div className="flex-shrink-0 perspective-element">
+                    <div className="h-32 w-32 overflow-hidden rounded-xl bg-muted shadow-md">
+                      <Image
+                        src="/hackathons/techcrunch-disrupt.jpg"
+                        alt="TechCrunch Disrupt Hackathon"
+                        width={150}
+                        height={150}
+                        className="h-full w-full object-cover"
+                      />
+                    </div>
+                  </div>
+                  <div className="flex-1">
+                    <div className="flex flex-col justify-between gap-2 md:flex-row md:items-start">
+                      <div>
+                        <h3 className="text-2xl font-bold">Women Techies'25</h3>
+                        <p className="text-sm text-muted-foreground">
+                          April 2025 • VIT Vellore, India
+                        </p>
                       </div>
                     </div>
-                    <div className="flex-1">
-                      <div className="flex flex-col justify-between gap-2 md:flex-row md:items-start">
-                        <div>
-                          <h3 className="text-2xl font-bold">
-                            Hackathon Name {hackathon}
-                          </h3>
-                          <p className="text-sm text-muted-foreground">
-                            October 2023 • San Francisco, CA
-                          </p>
-                        </div>
-                      </div>
-                      <p className="mt-4 text-lg">
-                        Developed an innovative solution for [problem
-                        statement]. Our team created a [brief description of the
-                        project] using [technologies used].
-                      </p>
-                      <div className="mt-6 flex flex-wrap gap-2">
-                        <span className="inline-flex items-center rounded-md bg-purple-500/10 px-3 py-1 text-sm font-medium text-purple-600">
-                          React
-                        </span>
-                        <span className="inline-flex items-center rounded-md bg-purple-500/10 px-3 py-1 text-sm font-medium text-purple-600">
-                          Node.js
-                        </span>
-                        <span className="inline-flex items-center rounded-md bg-purple-500/10 px-3 py-1 text-sm font-medium text-purple-600">
-                          MongoDB
-                        </span>
-                      </div>
-                      <div className="mt-6">
-                        <Link
-                          href="#"
-                          className="inline-flex items-center rounded-md bg-purple-600 px-4 py-2 text-sm font-medium text-white shadow transition-colors hover:bg-purple-700"
-                        >
-                          View Project
-                          <ExternalLink className="ml-2 h-4 w-4" />
-                        </Link>
-                      </div>
+                    <p className="mt-4 text-lg">
+                      Built SevaVerse at Women Techies'25 – a collaborative
+                      platform connecting NGOs, volunteers, and well-wishers to
+                      streamline child welfare initiatives. It features
+                      role-based access, secure authentication, task management,
+                      and dashboards for both NGOs and volunteers, using
+                      Node.js, Prisma, and SQLite.
+                    </p>
+                    <div className="mt-6 flex flex-wrap gap-2">
+                      <span className="inline-flex items-center rounded-md bg-purple-500/10 px-3 py-1 text-sm font-medium text-purple-600">
+                        Node.js + Express Backend
+                      </span>
+                      <span className="inline-flex items-center rounded-md bg-purple-500/10 px-3 py-1 text-sm font-medium text-purple-600">
+                        Prisma ORM + SQLite
+                      </span>
+                      <span className="inline-flex items-center rounded-md bg-purple-500/10 px-3 py-1 text-sm font-medium text-purple-600">
+                        Tailwind CSS Frontend
+                      </span>
+                    </div>
+                    <div className="mt-6">
+                      <Link
+                        href="https://devpost.com/software/carbonfootprint-ar"
+                        className="inline-flex items-center rounded-md bg-purple-600 px-4 py-2 text-sm font-medium text-white shadow transition-colors hover:bg-purple-700"
+                      >
+                        View Project
+                        <ExternalLink className="ml-2 h-4 w-4" />
+                      </Link>
                     </div>
                   </div>
                 </div>
-              ))}
+              </div>
+
+              {/* Hackathon 2 */}
+              <div
+                className="hackathon-card rounded-lg border border-purple-500/20 bg-card p-8 shadow-lg transition-all hover:shadow-xl hover:shadow-purple-500/20 animate-on-scroll"
+                data-animation="apple-zoom-spin"
+                data-delay={300}
+                style={{
+                  transformStyle: "preserve-3d",
+                  // Don't set transform and opacity inline - let the CSS and JavaScript handle it
+                }}
+              >
+                <div className="flex flex-col gap-6 md:flex-row md:items-start">
+                  <div className="flex-shrink-0 perspective-element">
+                    <div className="h-32 w-32 overflow-hidden rounded-xl bg-muted shadow-md">
+                      <Image
+                        src="/hackathons/techcrunch-disrupt.jpg"
+                        alt="TechCrunch Disrupt Hackathon"
+                        width={150}
+                        height={150}
+                        className="h-full w-full object-cover"
+                      />
+                    </div>
+                  </div>
+                  <div className="flex-1">
+                    <div className="flex flex-col justify-between gap-2 md:flex-row md:items-start">
+                      <div>
+                        <h3 className="text-2xl font-bold">
+                          Yantra Central Hack
+                        </h3>
+                        <p className="text-sm text-muted-foreground">
+                          January 2025 • VIT Vellore, India
+                        </p>
+                      </div>
+                    </div>
+                    <p className="mt-4 text-lg">
+                      Built OptiSync at Yantra Central Hack – a sustainability
+                      platform tailored for the textile industry, using an ML
+                      model to optimize water and electricity usage, reduce
+                      operational costs, and promote eco-efficiency. Powered by
+                      a Python backend, Supabase, and real-time analytics.
+                    </p>
+                    <div className="mt-6 flex flex-wrap gap-2">
+                      <span className="inline-flex items-center rounded-md bg-purple-500/10 px-3 py-1 text-sm font-medium text-purple-600">
+                        Python with ML
+                      </span>
+                      <span className="inline-flex items-center rounded-md bg-purple-500/10 px-3 py-1 text-sm font-medium text-purple-600">
+                        Supabase / SQL / PostgreSQL
+                      </span>
+                      <span className="inline-flex items-center rounded-md bg-purple-500/10 px-3 py-1 text-sm font-medium text-purple-600">
+                        {" "}
+                        HTML / CSS / JS
+                      </span>
+                    </div>
+                    <div className="mt-6">
+                      <Link
+                        href="https://github.com/yourusername/mediconnect"
+                        className="inline-flex items-center rounded-md bg-purple-600 px-4 py-2 text-sm font-medium text-white shadow transition-colors hover:bg-purple-700"
+                      >
+                        View Project
+                        <ExternalLink className="ml-2 h-4 w-4" />
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Hackathon 3 */}
+              <div
+                className="hackathon-card rounded-lg border border-purple-500/20 bg-card p-8 shadow-lg transition-all hover:shadow-xl hover:shadow-purple-500/20 animate-on-scroll"
+                data-animation="apple-zoom-spin"
+                data-delay={300}
+                style={{
+                  transformStyle: "preserve-3d",
+                  // Don't set transform and opacity inline - let the CSS and JavaScript handle it
+                }}
+              >
+                <div className="flex flex-col gap-6 md:flex-row md:items-start">
+                  <div className="flex-shrink-0 perspective-element">
+                    <div className="h-32 w-32 overflow-hidden rounded-xl bg-muted shadow-md">
+                      <Image
+                        src="/hackathons/techcrunch-disrupt.jpg"
+                        alt="TechCrunch Disrupt Hackathon"
+                        width={150}
+                        height={150}
+                        className="h-full w-full object-cover"
+                      />
+                    </div>
+                  </div>
+                  <div className="flex-1">
+                    <div className="flex flex-col justify-between gap-2 md:flex-row md:items-start">
+                      <div>
+                        <h3 className="text-2xl font-bold">DevJams</h3>
+                        <p className="text-sm text-muted-foreground">
+                          September 2024 • VIT Vellore, India
+                        </p>
+                      </div>
+                    </div>
+                    <p className="mt-4 text-lg">
+                      Built Therddit at DevJams – a smart Chrome extension that
+                      uses the Gemini API to analyze browsing patterns, detect
+                      distractions, and deliver AI-powered nudges to help users
+                      stay productive without blocking websites.
+                    </p>
+                    <div className="mt-6 flex flex-wrap gap-2">
+                      <span className="inline-flex items-center rounded-md bg-purple-500/10 px-3 py-1 text-sm font-medium text-purple-600">
+                        Gemini API
+                      </span>
+                      <span className="inline-flex items-center rounded-md bg-purple-500/10 px-3 py-1 text-sm font-medium text-purple-600">
+                        Chrome Extension (JavaScript + React)
+                      </span>
+                      <span className="inline-flex items-center rounded-md bg-purple-500/10 px-3 py-1 text-sm font-medium text-purple-600">
+                        FastAPI (Python backend)
+                      </span>
+                    </div>
+                    <div className="mt-6">
+                      {/* <Link
+                        href="https://cryptobank-project.example.com"
+                        className="inline-flex items-center rounded-md bg-purple-600 px-4 py-2 text-sm font-medium text-white shadow transition-colors hover:bg-purple-700"
+                      >
+                        View Project
+                        <ExternalLink className="ml-2 h-4 w-4" />
+                      </Link> */}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* Hackathon 4 */}
+            <div
+              className="hackathon-card rounded-lg border border-purple-500/20 bg-card p-8 shadow-lg transition-all hover:shadow-xl hover:shadow-purple-500/20 animate-on-scroll"
+              data-animation="apple-zoom-spin"
+              data-delay={300}
+              style={{
+                transformStyle: "preserve-3d",
+                // Don't set transform and opacity inline - let the CSS and JavaScript handle it
+              }}
+            >
+              <div className="flex flex-col gap-6 md:flex-row md:items-start">
+                <div className="flex-shrink-0 perspective-element">
+                  <div className="h-32 w-32 overflow-hidden rounded-xl bg-muted shadow-md">
+                    <Image
+                      src="/hackathons/techcrunch-disrupt.jpg"
+                      alt="TechCrunch Disrupt Hackathon"
+                      width={150}
+                      height={150}
+                      className="h-full w-full object-cover"
+                    />
+                  </div>
+                </div>
+                <div className="flex-1">
+                  <div className="flex flex-col justify-between gap-2 md:flex-row md:items-start">
+                    <div>
+                      <h3 className="text-2xl font-bold">CodeWars</h3>
+                      <p className="text-sm text-muted-foreground">
+                        February 2024 • NPS KRM, Blr, India
+                      </p>
+                    </div>
+                  </div>
+                  <p className="mt-4 text-lg"></p>
+                  {/* <div className="mt-6 flex flex-wrap gap-2">
+                    <span className="inline-flex items-center rounded-md bg-purple-500/10 px-3 py-1 text-sm font-medium text-purple-600">
+                      Solidity
+                    </span>
+                    <span className="inline-flex items-center rounded-md bg-purple-500/10 px-3 py-1 text-sm font-medium text-purple-600">
+                      React
+                    </span>
+                    <span className="inline-flex items-center rounded-md bg-purple-500/10 px-3 py-1 text-sm font-medium text-purple-600">
+                      Ethereum
+                    </span>
+                  </div> */}
+                  <div className="mt-6">
+                    {/* <Link
+                      href="https://cryptobank-project.example.com"
+                      className="inline-flex items-center rounded-md bg-purple-600 px-4 py-2 text-sm font-medium text-white shadow transition-colors hover:bg-purple-700"
+                    >
+                      View Project
+                      <ExternalLink className="ml-2 h-4 w-4" />
+                    </Link> */}
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -1254,14 +1437,14 @@ export default function AboutMe() {
           </h2>
           <div className="mt-16 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
             {[
+              "Robotics",
               "Photography",
-              "Hiking",
-              "Reading",
-              "Cooking",
+              "Cycling",
+              "Trekking",
               "Gaming",
-              "Painting",
               "Music",
               "Traveling",
+              "Gardening",
             ].map((hobby, index) => (
               <div
                 key={hobby}
