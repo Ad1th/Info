@@ -3,9 +3,9 @@ import "./globals.css";
 import { ThemeProvider } from "../components/theme-provider";
 
 export const metadata = {
-  title: "John Doe - Full Stack Developer",
+  title: "Adith Manikonda",
   description:
-    "Personal portfolio website of John Doe, a Full Stack Developer and UI/UX Designer",
+    "Personal portfolio website of Adith Manikonda, an Engineering Freshman at VIT",
 };
 
 export default function RootLayout({

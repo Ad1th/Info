@@ -200,14 +200,14 @@ export default function AboutMe() {
                   <span className="sr-only">GitHub</span>
                 </Link>
                 <Link
-                  href="#"
+                  href="https://www.linkedin.com/in/adith-manikonda/"
                   className="text-muted-foreground hover:text-purple-500 transition-colors transform hover:scale-110"
                 >
                   <Linkedin className="h-6 w-6" />
                   <span className="sr-only">LinkedIn</span>
                 </Link>
                 <Link
-                  href="#"
+                  href="mailto: adith2505@outlook.com"
                   className="text-muted-foreground hover:text-purple-500 transition-colors transform hover:scale-110"
                 >
                   <Mail className="h-6 w-6" />
@@ -262,43 +262,35 @@ export default function AboutMe() {
             </h2>
             <div className="mt-8 text-left space-y-4">
               <p className="text-lg">
-                Hello! I'm John, a passionate Full Stack Developer with a keen
-                eye for design and a love for creating intuitive, user-friendly
-                applications. With over 5 years of experience in web
-                development, I specialize in building responsive and accessible
-                web applications using modern technologies.
+                Hey there! I’m Adith — a CSE student at VIT Vellore who likes to
+                break stuff (intentionally) and then build it back better. I’m
+                super into creating cool things with code, whether it's a web
+                app, a Chrome extension that keeps you productive, or even a
+                Google Drive clone that actually makes sense. I’m also dipping
+                my toes into the world of robotics, because why stop at software
+                when you can make things move?{" "}
               </p>
               <p className="text-lg">
-                I graduated from the University of Technology with a Bachelor's
-                degree in Computer Science. Throughout my career, I've worked
-                with various startups and established companies, helping them
-                bring their ideas to life through code.
+                I’ve built everything from anonymous forums to hackathon
+                projects powered by AI, working with stacks like React, FastAPI,
+                Supabase, and a sprinkle of Python magic. I enjoy late-night
+                debugging sessions (not really, but they build character),
+                working with awesome teams, and dreaming up solutions that make
+                tech more human.
               </p>
               <p className="text-lg">
-                My approach to development is centered around solving real-world
-                problems with clean, efficient code. I believe in continuous
-                learning and staying updated with the latest industry trends and
-                technologies.
+                When I’m not tinkering with circuits or staring at my screen
+                with 47 Chrome tabs open, you’ll probably find me cycling,
+                listening to random playlists, or planning the next side project
+                I may or may not finish. Always up to collaborate, learn
+                something new, or just chat tech!
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Journey Timeline */}
-      <section id="journey" className="py-20 md:py-32">
-        <div className="container px-4 md:px-6">
-          <h2
-            className="text-3xl font-bold tracking-tighter text-center sm:text-4xl md:text-5xl bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-indigo-600 mb-16 animate-on-scroll"
-            data-animation="fade-up"
-          >
-            My Journey
-          </h2>
-          <Timeline />
-        </div>
-      </section>
-
-      {/* Experience Section */}
+      {/* Experience Section
       <section
         id="experience"
         className="bg-gradient-to-b from-indigo-950/5 to-purple-950/10 py-20 md:py-32"
@@ -366,7 +358,7 @@ export default function AboutMe() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Skills Section */}
       <section id="skills" className="py-20 md:py-32">
@@ -383,15 +375,21 @@ export default function AboutMe() {
               data-animation="fade-up"
               data-delay="100"
             >
-              <h3 className="text-xl font-bold">Frontend Development</h3>
+              <h3 className="text-xl font-bold">
+                Software Development & Engineering
+              </h3>
               <div className="mt-6 grid grid-cols-2 gap-4">
                 {[
-                  "React",
-                  "Next.js",
-                  "TypeScript",
-                  "Tailwind CSS",
-                  "HTML5/CSS3",
-                  "JavaScript",
+                  "Python",
+                  "Java",
+                  "C, C++ Basics",
+                  "HTML, CSS, Tailwind CSS",
+                  "JavaScript, Express js",
+                  "SQL, DBMS",
+                  "API Development (Fast API, Gemini API",
+                  "Web Hosting",
+                  "Git/GitHub",
+                  "Chrome Extension Development",
                 ].map((skill) => (
                   <div key={skill} className="flex items-center space-x-2">
                     <div className="h-2 w-2 rounded-full bg-purple-500"></div>
@@ -405,15 +403,21 @@ export default function AboutMe() {
               data-animation="fade-up"
               data-delay="200"
             >
-              <h3 className="text-xl font-bold">Backend Development</h3>
+              <h3 className="text-xl font-bold">
+                AI, Robotics & Emerging Tech
+              </h3>
               <div className="mt-6 grid grid-cols-2 gap-4">
                 {[
-                  "Node.js",
-                  "Express",
-                  "Python",
-                  "Django",
-                  "RESTful APIs",
-                  "GraphQL",
+                  "AI Builder",
+                  "Low Code Development",
+                  "Research",
+                  "Robotics",
+                  "Arduino",
+                  "Mindstorms EV3",
+                  "Automation",
+                  "AI Integration in Web Apps",
+                  "Task Automation",
+                  "UI/UX Basics",
                 ].map((skill) => (
                   <div key={skill} className="flex items-center space-x-2">
                     <div className="h-2 w-2 rounded-full bg-purple-500"></div>
@@ -427,15 +431,20 @@ export default function AboutMe() {
               data-animation="fade-up"
               data-delay="300"
             >
-              <h3 className="text-xl font-bold">Database & DevOps</h3>
+              <h3 className="text-xl font-bold">
+                Creativity & Personal Interests
+              </h3>
               <div className="mt-6 grid grid-cols-2 gap-4">
                 {[
-                  "MongoDB",
-                  "PostgreSQL",
-                  "Firebase",
-                  "Docker",
-                  "AWS",
-                  "CI/CD",
+                  "Audio Editing Basics",
+                  "Photo Editing Basics",
+                  "Video Editing Basics",
+                  "Electronics and Soldering",
+                  "Cycling",
+                  "Gardening",
+                  "Cubing",
+                  "PC Building",
+                  "Basic UI/UX Design (Figma, Canva)",
                 ].map((skill) => (
                   <div key={skill} className="flex items-center space-x-2">
                     <div className="h-2 w-2 rounded-full bg-purple-500"></div>
@@ -501,59 +510,577 @@ export default function AboutMe() {
           >
             Projects
           </h2>
+
           <div className="mt-16 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-            {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((project, index) => (
-              <div
-                key={project}
-                className="group relative overflow-hidden rounded-lg border border-purple-500/20 bg-card shadow-sm transition-all hover:shadow-md hover:shadow-purple-500/10 hover:-translate-y-2 animate-on-scroll"
-                data-animation="fade-up"
-                data-delay={100 * index}
-              >
-                <div className="aspect-video w-full overflow-hidden">
-                  <Image
-                    src={`/placeholder.svg?height=300&width=500&text=Project+${project}`}
-                    alt={`Project ${project}`}
-                    width={500}
-                    height={300}
-                    className="object-cover transition-transform group-hover:scale-105"
-                  />
+            {/* Project 1 */}
+            <div
+              className="group relative overflow-hidden rounded-lg border border-purple-500/20 bg-card shadow-sm transition-all hover:shadow-md hover:shadow-purple-500/10 hover:-translate-y-2 animate-on-scroll"
+              data-animation="fade-up"
+              data-delay={100}
+            >
+              <div className="aspect-video w-full overflow-hidden">
+                <Image
+                  src="/projects/cloudify-thumbnail.jpg"
+                  alt="Cloudify - Cloud Storage Platform"
+                  width={500}
+                  height={300}
+                  className="object-cover transition-transform group-hover:scale-105"
+                />
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold">Cloudify</h3>
+                <p className="mt-2 text-muted-foreground">
+                  A cloud storage platform inspired by Google Drive, designed
+                  for seamless file management with secure uploads and
+                  structured folder organization. Features AI-driven search and
+                  data insights.
+                </p>
+                <div className="mt-4 flex flex-wrap gap-2">
+                  <span className="inline-flex items-center rounded-md bg-purple-500/10 px-2 py-1 text-xs font-medium text-purple-600">
+                    Postgresql
+                  </span>
+                  <span className="inline-flex items-center rounded-md bg-purple-500/10 px-2 py-1 text-xs font-medium text-purple-600">
+                    Express.JS
+                  </span>
+                  <span className="inline-flex items-center rounded-md bg-purple-500/10 px-2 py-1 text-xs font-medium text-purple-600">
+                    Vercel
+                  </span>
                 </div>
-                <div className="p-6">
-                  <h3 className="text-xl font-bold">Project Title {project}</h3>
-                  <p className="mt-2 text-muted-foreground">
-                    A brief description of the project, highlighting key
-                    features and technologies used.
-                  </p>
-                  <div className="mt-4 flex flex-wrap gap-2">
-                    <span className="inline-flex items-center rounded-md bg-purple-500/10 px-2 py-1 text-xs font-medium text-purple-600">
-                      React
-                    </span>
-                    <span className="inline-flex items-center rounded-md bg-purple-500/10 px-2 py-1 text-xs font-medium text-purple-600">
-                      Node.js
-                    </span>
-                    <span className="inline-flex items-center rounded-md bg-purple-500/10 px-2 py-1 text-xs font-medium text-purple-600">
-                      MongoDB
-                    </span>
-                  </div>
-                  <div className="mt-6 flex items-center justify-between">
-                    <Link
-                      href="#"
-                      className="inline-flex items-center text-sm font-medium text-purple-600 hover:text-purple-700"
-                    >
-                      View Project
-                      <ExternalLink className="ml-1 h-4 w-4" />
-                    </Link>
-                    <Link
-                      href="#"
-                      className="inline-flex items-center text-sm font-medium text-muted-foreground hover:text-foreground"
-                    >
-                      <Github className="mr-1 h-4 w-4" />
-                      Code
-                    </Link>
-                  </div>
+                <div className="mt-6 flex items-center justify-between">
+                  <Link
+                    href="https://cloudify-mfcpjt.netlify.app/"
+                    className="inline-flex items-center text-sm font-medium text-purple-600 hover:text-purple-700"
+                  >
+                    View Project
+                    <ExternalLink className="ml-1 h-4 w-4" />
+                  </Link>
+                  {/* <Link
+                    href="https://github.com/yourusername/cloudify"
+                    className="inline-flex items-center text-sm font-medium text-muted-foreground hover:text-foreground"
+                  >
+                    <Github className="mr-1 h-4 w-4" />
+                    Code
+                  </Link> */}
                 </div>
               </div>
-            ))}
+            </div>
+
+            {/* Project 2 */}
+            <div
+              className="group relative overflow-hidden rounded-lg border border-purple-500/20 bg-card shadow-sm transition-all hover:shadow-md hover:shadow-purple-500/10 hover:-translate-y-2 animate-on-scroll"
+              data-animation="fade-up"
+              data-delay={200}
+            >
+              <div className="aspect-video w-full overflow-hidden">
+                <Image
+                  src="/projects/taskmaster-thumbnail.jpg"
+                  alt="TaskMaster - Project Management Tool"
+                  width={500}
+                  height={300}
+                  className="object-cover transition-transform group-hover:scale-105"
+                />
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold">Threddit</h3>
+                <p className="mt-2 text-muted-foreground">
+                  Built a productivity-focused Chrome extension using React,
+                  FastAPI, and Gemini API in a 2-day hackathon; analyzed web
+                  usage and delivered personalized nudges. Saved users 36–48
+                  minutes daily by reducing distractions with time insights and
+                  non-intrusive refocusing prompts.
+                </p>
+                <div className="mt-4 flex flex-wrap gap-2">
+                  <span className="inline-flex items-center rounded-md bg-purple-500/10 px-2 py-1 text-xs font-medium text-purple-600">
+                    React
+                  </span>
+                  <span className="inline-flex items-center rounded-md bg-purple-500/10 px-2 py-1 text-xs font-medium text-purple-600">
+                    Fast API
+                  </span>
+                  <span className="inline-flex items-center rounded-md bg-purple-500/10 px-2 py-1 text-xs font-medium text-purple-600">
+                    PostgreSQL
+                  </span>
+                  <span className="inline-flex items-center rounded-md bg-purple-500/10 px-2 py-1 text-xs font-medium text-purple-600">
+                    Gemini API
+                  </span>
+                  <span className="inline-flex items-center rounded-md bg-purple-500/10 px-2 py-1 text-xs font-medium text-purple-600">
+                    Chrome Extensions
+                  </span>
+                </div>
+                <div className="mt-6 flex items-center justify-between">
+                  {/* <Link
+                    href="https://taskmaster-app.example.com"
+                    className="inline-flex items-center text-sm font-medium text-purple-600 hover:text-purple-700"
+                  >
+                    View Project
+                    <ExternalLink className="ml-1 h-4 w-4" />
+                  </Link> */}
+
+                  {/* <Link
+                    href="https://github.com/yourusername/taskmaster"
+                    className="inline-flex items-center text-sm font-medium text-muted-foreground hover:text-foreground"
+                  >
+                    <Github className="mr-1 h-4 w-4" />
+                    Code
+                  </Link> */}
+                </div>
+              </div>
+            </div>
+
+            {/* Project 3 */}
+            <div
+              className="group relative overflow-hidden rounded-lg border border-purple-500/20 bg-card shadow-sm transition-all hover:shadow-md hover:shadow-purple-500/10 hover:-translate-y-2 animate-on-scroll"
+              data-animation="fade-up"
+              data-delay={300}
+            >
+              <div className="aspect-video w-full overflow-hidden">
+                <Image
+                  src="/projects/fittrack-thumbnail.jpg"
+                  alt="FitTrack - Fitness Tracking App"
+                  width={500}
+                  height={300}
+                  className="object-cover transition-transform group-hover:scale-105"
+                />
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold">HOSPITECH</h3>
+                <p className="mt-2 text-muted-foreground">
+                  Developed Hospitech, a lightweight clinic management system
+                  using Python and SQL to digitize patient records,
+                  appointments, and doctor profiles for small clinics. Designed
+                  an intuitive interface with secure admin/doctor logins,
+                  streamlining workflows without complex DBMS overhead..
+                </p>
+                <div className="mt-4 flex flex-wrap gap-2">
+                  <span className="inline-flex items-center rounded-md bg-purple-500/10 px-2 py-1 text-xs font-medium text-purple-600">
+                    Python
+                  </span>
+                  <span className="inline-flex items-center rounded-md bg-purple-500/10 px-2 py-1 text-xs font-medium text-purple-600">
+                    SQL/ MySQL
+                  </span>
+                  <span className="inline-flex items-center rounded-md bg-purple-500/10 px-2 py-1 text-xs font-medium text-purple-600">
+                    Tkinter
+                  </span>
+                </div>
+                <div className="mt-6 flex items-center justify-between">
+                  {/* <Link
+                    href="https://fittrack-app.example.com"
+                    className="inline-flex items-center text-sm font-medium text-purple-600 hover:text-purple-700"
+                  >
+                    View Project
+                    <ExternalLink className="ml-1 h-4 w-4" />
+                  </Link> */}
+
+                  {/* <Link
+                    href="https://github.com/yourusername/fittrack"
+                    className="inline-flex items-center text-sm font-medium text-muted-foreground hover:text-foreground"
+                  >
+                    <Github className="mr-1 h-4 w-4" />
+                    Code
+                  </Link> */}
+                </div>
+              </div>
+            </div>
+
+            {/* Project 4 */}
+            <div
+              className="group relative overflow-hidden rounded-lg border border-purple-500/20 bg-card shadow-sm transition-all hover:shadow-md hover:shadow-purple-500/10 hover:-translate-y-2 animate-on-scroll"
+              data-animation="fade-up"
+              data-delay={400}
+            >
+              <div className="aspect-video w-full overflow-hidden">
+                <Image
+                  src="/projects/cryptotracker-thumbnail.jpg"
+                  alt="CryptoTracker - Cryptocurrency Dashboard"
+                  width={500}
+                  height={300}
+                  className="object-cover transition-transform group-hover:scale-105"
+                />
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold">EchoChamber</h3>
+                <p className="mt-2 text-muted-foreground">
+                  Built EchoChamber, an anonymous forum web app enabling users
+                  to post confessions, chat, and share thoughts freely, with a
+                  clean full-screen UI. Used Supabase for real-time data
+                  handling and user-generated content storage, optimized for
+                  Chrome with a focus on anonymity and simplicity.
+                </p>
+                <div className="mt-4 flex flex-wrap gap-2">
+                  <span className="inline-flex items-center rounded-md bg-purple-500/10 px-2 py-1 text-xs font-medium text-purple-600">
+                    HTML
+                  </span>
+                  <span className="inline-flex items-center rounded-md bg-purple-500/10 px-2 py-1 text-xs font-medium text-purple-600">
+                    CSS
+                  </span>
+                  <span className="inline-flex items-center rounded-md bg-purple-500/10 px-2 py-1 text-xs font-medium text-purple-600">
+                    JS
+                  </span>
+                  <span className="inline-flex items-center rounded-md bg-purple-500/10 px-2 py-1 text-xs font-medium text-purple-600">
+                    SQL/ PostgreSQL
+                  </span>
+                  <span className="inline-flex items-center rounded-md bg-purple-500/10 px-2 py-1 text-xs font-medium text-purple-600"></span>
+                </div>
+                <div className="mt-6 flex items-center justify-between">
+                  {/* <Link
+                    href="https://cryptotracker-app.example.com"
+                    className="inline-flex items-center text-sm font-medium text-purple-600 hover:text-purple-700"
+                  >
+                    View Project
+                    <ExternalLink className="ml-1 h-4 w-4" />
+                  </Link> */}
+
+                  {/* <Link
+                    href="https://github.com/yourusername/cryptotracker"
+                    className="inline-flex items-center text-sm font-medium text-muted-foreground hover:text-foreground"
+                  >
+                    <Github className="mr-1 h-4 w-4" />
+                    Code
+                  </Link> */}
+                </div>
+              </div>
+            </div>
+
+            {/* Project 5 */}
+            <div
+              className="group relative overflow-hidden rounded-lg border border-purple-500/20 bg-card shadow-sm transition-all hover:shadow-md hover:shadow-purple-500/10 hover:-translate-y-2 animate-on-scroll"
+              data-animation="fade-up"
+              data-delay={500}
+            >
+              <div className="aspect-video w-full overflow-hidden">
+                <Image
+                  src="/projects/aiwriter-thumbnail.jpg"
+                  alt="AIWriter - Content Generation Tool"
+                  width={500}
+                  height={300}
+                  className="object-cover transition-transform group-hover:scale-105"
+                />
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold">Snek</h3>
+                <p className="mt-2 text-muted-foreground">
+                  Built Snek, a retro-style snake game using Python and Pygame
+                  with a clean UI, menu screen, and dynamic difficulty via
+                  increasing snake length and speed. Handled real-time collision
+                  detection, score tracking, and smooth player input for an
+                  engaging arcade experience. This was the first project I did,
+                  back in grade 12, and was submitted as a part of my high
+                  school project.
+                </p>
+                <div className="mt-4 flex flex-wrap gap-2">
+                  <span className="inline-flex items-center rounded-md bg-purple-500/10 px-2 py-1 text-xs font-medium text-purple-600">
+                    Python
+                  </span>
+                  <span className="inline-flex items-center rounded-md bg-purple-500/10 px-2 py-1 text-xs font-medium text-purple-600">
+                    Pygame
+                  </span>
+                  <span className="inline-flex items-center rounded-md bg-purple-500/10 px-2 py-1 text-xs font-medium text-purple-600">
+                    Random Module
+                  </span>
+                </div>
+                <div className="mt-6 flex items-center justify-between">
+                  {/* <Link
+                    href="https://aiwriter-tool.example.com"
+                    className="inline-flex items-center text-sm font-medium text-purple-600 hover:text-purple-700"
+                  >
+                    View Project
+                    <ExternalLink className="ml-1 h-4 w-4" />
+                  </Link>
+                  <Link
+                    href="https://github.com/yourusername/aiwriter"
+                    className="inline-flex items-center text-sm font-medium text-muted-foreground hover:text-foreground"
+                  >
+                    <Github className="mr-1 h-4 w-4" />
+                    Code
+                  </Link> */}
+                </div>
+              </div>
+            </div>
+
+            {/* Project 6 */}
+            <div
+              className="group relative overflow-hidden rounded-lg border border-purple-500/20 bg-card shadow-sm transition-all hover:shadow-md hover:shadow-purple-500/10 hover:-translate-y-2 animate-on-scroll"
+              data-animation="fade-up"
+              data-delay={600}
+            >
+              <div className="aspect-video w-full overflow-hidden">
+                <Image
+                  src="/projects/smarthome-thumbnail.jpg"
+                  alt="SmartHome - IoT Control Panel"
+                  width={500}
+                  height={300}
+                  className="object-cover transition-transform group-hover:scale-105"
+                />
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold">KonectUs</h3>
+                <p className="mt-2 text-muted-foreground">
+                  Developed KonectUs, a social platform connecting users through
+                  shared interests via confessions, forums, and real-time
+                  chat—fully anonymous and interactive. Used Supabase for user
+                  data handling, with scalable backend logic and a responsive
+                  frontend optimized for full-screen Chrome experience.
+                </p>
+                <div className="mt-4 flex flex-wrap gap-2">
+                  <span className="inline-flex items-center rounded-md bg-purple-500/10 px-2 py-1 text-xs font-medium text-purple-600">
+                    Supabase
+                  </span>
+                  <span className="inline-flex items-center rounded-md bg-purple-500/10 px-2 py-1 text-xs font-medium text-purple-600">
+                    JavaScript (HTML/CSS)
+                  </span>
+                  <span className="inline-flex items-center rounded-md bg-purple-500/10 px-2 py-1 text-xs font-medium text-purple-600">
+                    Node.js / FastAPI{" "}
+                  </span>
+                </div>
+                <div className="mt-6 flex items-center justify-between">
+                  {/* <Link
+                    href="https://smarthome-demo.example.com"
+                    className="inline-flex items-center text-sm font-medium text-purple-600 hover:text-purple-700"
+                  >
+                    View Project
+                    <ExternalLink className="ml-1 h-4 w-4" />
+                  </Link>
+                  <Link
+                    href="https://github.com/yourusername/smarthome"
+                    className="inline-flex items-center text-sm font-medium text-muted-foreground hover:text-foreground"
+                  >
+                    <Github className="mr-1 h-4 w-4" />
+                    Code
+                  </Link> */}
+                </div>
+              </div>
+            </div>
+
+            {/* Project 7 */}
+            <div
+              className="group relative overflow-hidden rounded-lg border border-purple-500/20 bg-card shadow-sm transition-all hover:shadow-md hover:shadow-purple-500/10 hover:-translate-y-2 animate-on-scroll"
+              data-animation="fade-up"
+              data-delay={700}
+            >
+              <div className="aspect-video w-full overflow-hidden">
+                <Image
+                  src="/projects/edulearn-thumbnail.jpg"
+                  alt="EduLearn - E-Learning Platform"
+                  width={500}
+                  height={300}
+                  className="object-cover transition-transform group-hover:scale-105"
+                />
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold">EcoSync</h3>
+                <p className="mt-2 text-muted-foreground">
+                  Built EcoSync AI in a 2-day hackathon to provide smart
+                  sustainability solutions in logistics and energy through a
+                  minimalist dark-themed web platform. Integrated a Supabase
+                  backend with Python (FastAPI) to process user input and
+                  deliver actionable insights—ML integration planned for future
+                  iterations.
+                </p>
+                <div className="mt-4 flex flex-wrap gap-2">
+                  <span className="inline-flex items-center rounded-md bg-purple-500/10 px-2 py-1 text-xs font-medium text-purple-600">
+                    Supabase
+                  </span>
+                  <span className="inline-flex items-center rounded-md bg-purple-500/10 px-2 py-1 text-xs font-medium text-purple-600">
+                    FastAPI (Python)
+                  </span>
+                  <span className="inline-flex items-center rounded-md bg-purple-500/10 px-2 py-1 text-xs font-medium text-purple-600">
+                    HTML/CSS/JS
+                  </span>
+                  <span className="inline-flex items-center rounded-md bg-purple-500/10 px-2 py-1 text-xs font-medium text-purple-600">
+                    CSS
+                  </span>
+                  <span className="inline-flex items-center rounded-md bg-purple-500/10 px-2 py-1 text-xs font-medium text-purple-600">
+                    JS
+                  </span>
+                </div>
+                <div className="mt-6 flex items-center justify-between">
+                  {/* <Link
+                    href="https://edulearn-platform.example.com"
+                    className="inline-flex items-center text-sm font-medium text-purple-600 hover:text-purple-700"
+                  >
+                    View Project
+                    <ExternalLink className="ml-1 h-4 w-4" />
+                  </Link>
+                  <Link
+                    href="https://github.com/yourusername/edulearn"
+                    className="inline-flex items-center text-sm font-medium text-muted-foreground hover:text-foreground"
+                  >
+                    <Github className="mr-1 h-4 w-4" />
+                    Code
+                  </Link> */}
+                </div>
+              </div>
+            </div>
+
+            {/* Project 8 */}
+            <div
+              className="group relative overflow-hidden rounded-lg border border-purple-500/20 bg-card shadow-sm transition-all hover:shadow-md hover:shadow-purple-500/10 hover:-translate-y-2 animate-on-scroll"
+              data-animation="fade-up"
+              data-delay={800}
+            >
+              <div className="aspect-video w-full overflow-hidden">
+                <Image
+                  src="/projects/travelbuddy-thumbnail.jpg"
+                  alt="TravelBuddy - Trip Planning App"
+                  width={500}
+                  height={300}
+                  className="object-cover transition-transform group-hover:scale-105"
+                />
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold">SevaVerse</h3>
+                <p className="mt-2 text-muted-foreground">
+                  Developed SevaVerse, a platform connecting NGOs, volunteers,
+                  and donors to enhance child welfare with task management,
+                  dashboards, and secure logins. Used Node.js with Prisma and
+                  SQLite for backend, and Tailwind CSS for a clean, responsive
+                  UI—future-ready for mobile, maps, and notification
+                  integration.
+                </p>
+                <div className="mt-4 flex flex-wrap gap-2">
+                  <span className="inline-flex items-center rounded-md bg-purple-500/10 px-2 py-1 text-xs font-medium text-purple-600">
+                    Node.js (Express.js)
+                  </span>
+                  <span className="inline-flex items-center rounded-md bg-purple-500/10 px-2 py-1 text-xs font-medium text-purple-600">
+                    Prisma + SQLite
+                  </span>
+                  <span className="inline-flex items-center rounded-md bg-purple-500/10 px-2 py-1 text-xs font-medium text-purple-600">
+                    Tailwind CSS
+                  </span>
+                </div>
+                <div className="mt-6 flex items-center justify-between">
+                  {/* <Link
+                    href="https://travelbuddy-app.example.com"
+                    className="inline-flex items-center text-sm font-medium text-purple-600 hover:text-purple-700"
+                  >
+                    View Project
+                    <ExternalLink className="ml-1 h-4 w-4" />
+                  </Link>
+                  <Link
+                    href="https://github.com/yourusername/travelbuddy"
+                    className="inline-flex items-center text-sm font-medium text-muted-foreground hover:text-foreground"
+                  >
+                    <Github className="mr-1 h-4 w-4" />
+                    Code
+                  </Link> */}
+                </div>
+              </div>
+            </div>
+
+            {/* Project 9 */}
+            <div
+              className="group relative overflow-hidden rounded-lg border border-purple-500/20 bg-card shadow-sm transition-all hover:shadow-md hover:shadow-purple-500/10 hover:-translate-y-2 animate-on-scroll"
+              data-animation="fade-up"
+              data-delay={900}
+            >
+              <div className="aspect-video w-full overflow-hidden">
+                <Image
+                  src="/projects/musicstudio-thumbnail.jpg"
+                  alt="MusicStudio - Digital Audio Workstation"
+                  width={500}
+                  height={300}
+                  className="object-cover transition-transform group-hover:scale-105"
+                />
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold">CropLink</h3>
+                <p className="mt-2 text-muted-foreground">
+                  Created CropLink, a farm-to-consumer web app that enables
+                  direct produce listings, demand tracking, and logistic
+                  coordination between farmers and buyers. Focused on
+                  transparent supply chains, it uses Supabase for real-time data
+                  handling and integrates Gemini API for demand forecasting
+                  suggestions.
+                </p>
+                <div className="mt-4 flex flex-wrap gap-2">
+                  <span className="inline-flex items-center rounded-md bg-purple-500/10 px-2 py-1 text-xs font-medium text-purple-600">
+                    SQL / PostgreSQL / Supabase
+                  </span>
+                  <span className="inline-flex items-center rounded-md bg-purple-500/10 px-2 py-1 text-xs font-medium text-purple-600">
+                    Gemini API
+                  </span>
+                  <span className="inline-flex items-center rounded-md bg-purple-500/10 px-2 py-1 text-xs font-medium text-purple-600">
+                    Twilio for sms integration
+                  </span>
+                  <span className="inline-flex items-center rounded-md bg-purple-500/10 px-2 py-1 text-xs font-medium text-purple-600">
+                    HTML
+                  </span>
+                  <span className="inline-flex items-center rounded-md bg-purple-500/10 px-2 py-1 text-xs font-medium text-purple-600">
+                    CSS
+                  </span>
+                  <span className="inline-flex items-center rounded-md bg-purple-500/10 px-2 py-1 text-xs font-medium text-purple-600">
+                    JS
+                  </span>
+                </div>
+                <div className="mt-6 flex items-center justify-between">
+                  {/* <Link
+                    href="https://musicstudio-app.example.com"
+                    className="inline-flex items-center text-sm font-medium text-purple-600 hover:text-purple-700"
+                  >
+                    View Project
+                    <ExternalLink className="ml-1 h-4 w-4" />
+                  </Link>
+                  <Link
+                    href="https://github.com/yourusername/musicstudio"
+                    className="inline-flex items-center text-sm font-medium text-muted-foreground hover:text-foreground"
+                  >
+                    <Github className="mr-1 h-4 w-4" />
+                    Code
+                  </Link> */}
+                </div>
+              </div>
+            </div>
+
+            {/* Project 10 */}
+            <div
+              className="group relative overflow-hidden rounded-lg border border-purple-500/20 bg-card shadow-sm transition-all hover:shadow-md hover:shadow-purple-500/10 hover:-translate-y-2 animate-on-scroll"
+              data-animation="fade-up"
+              data-delay={1000}
+            >
+              <div className="aspect-video w-full overflow-hidden">
+                <Image
+                  src="/projects/ecotrack-thumbnail.jpg"
+                  alt="EcoTrack - Environmental Monitoring System"
+                  width={500}
+                  height={300}
+                  className="object-cover transition-transform group-hover:scale-105"
+                />
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold">EcoTrack</h3>
+                <p className="mt-2 text-muted-foreground">
+                  An environmental monitoring system that tracks air quality,
+                  water levels, and pollution using IoT sensors. Includes
+                  predictive analytics and public awareness dashboards.
+                </p>
+                <div className="mt-4 flex flex-wrap gap-2">
+                  <span className="inline-flex items-center rounded-md bg-purple-500/10 px-2 py-1 text-xs font-medium text-purple-600">
+                    Python
+                  </span>
+                  <span className="inline-flex items-center rounded-md bg-purple-500/10 px-2 py-1 text-xs font-medium text-purple-600">
+                    TensorFlow
+                  </span>
+                  <span className="inline-flex items-center rounded-md bg-purple-500/10 px-2 py-1 text-xs font-medium text-purple-600">
+                    Arduino
+                  </span>
+                </div>
+                <div className="mt-6 flex items-center justify-between">
+                  <Link
+                    href="https://ecotrack-project.example.com"
+                    className="inline-flex items-center text-sm font-medium text-purple-600 hover:text-purple-700"
+                  >
+                    View Project
+                    <ExternalLink className="ml-1 h-4 w-4" />
+                  </Link>
+                  <Link
+                    href="https://github.com/yourusername/ecotrack"
+                    className="inline-flex items-center text-sm font-medium text-muted-foreground hover:text-foreground"
+                  >
+                    <Github className="mr-1 h-4 w-4" />
+                    Code
+                  </Link>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -759,7 +1286,18 @@ export default function AboutMe() {
           </div>
         </div>
       </section>
-
+      {/* Journey Timeline */}
+      <section id="journey" className="py-20 md:py-32">
+        <div className="container px-4 md:px-6">
+          <h2
+            className="text-3xl font-bold tracking-tighter text-center sm:text-4xl md:text-5xl bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-indigo-600 mb-16 animate-on-scroll"
+            data-animation="fade-up"
+          >
+            My Journey
+          </h2>
+          <Timeline />
+        </div>
+      </section>
       {/* Contact Section (Social Links Only) */}
       <section id="contact" className="py-20 md:py-32">
         <div className="container px-4 md:px-6">
@@ -772,21 +1310,21 @@ export default function AboutMe() {
             </h2>
             <div className="mt-8 flex justify-center space-x-6">
               <Link
-                href="#"
+                href="https://github.com/Ad1th"
                 className="text-muted-foreground hover:text-purple-500 transition-colors transform hover:scale-110"
               >
                 <Github className="h-8 w-8" />
                 <span className="sr-only">GitHub</span>
               </Link>
               <Link
-                href="#"
+                href="https://www.linkedin.com/in/adith-manikonda/"
                 className="text-muted-foreground hover:text-purple-500 transition-colors transform hover:scale-110"
               >
                 <Linkedin className="h-8 w-8" />
                 <span className="sr-only">LinkedIn</span>
               </Link>
               <Link
-                href="#"
+                href="mailto: adith2505@outlook.com"
                 className="text-muted-foreground hover:text-purple-500 transition-colors transform hover:scale-110"
               >
                 <Mail className="h-8 w-8" />
@@ -796,11 +1334,7 @@ export default function AboutMe() {
             <div className="mt-6 space-y-2">
               <p className="flex items-center justify-center text-sm text-muted-foreground">
                 <Mail className="mr-2 h-4 w-4" />
-                johndoe@example.com
-              </p>
-              <p className="flex items-center justify-center text-sm text-muted-foreground">
-                <MapPin className="mr-2 h-4 w-4" />
-                San Francisco, CA
+                adith2505@outlook.com
               </p>
             </div>
           </div>
@@ -811,7 +1345,8 @@ export default function AboutMe() {
       <footer className="border-t border-purple-900/20 bg-background py-6 md:py-8">
         <div className="container flex flex-col items-center justify-between gap-4 px-4 md:flex-row md:px-6">
           <p className="text-center text-sm text-muted-foreground md:text-left">
-            &copy; {new Date().getFullYear()} John Doe. All rights reserved.
+            &copy; {new Date().getFullYear()} Adith Manikonda. All rights
+            reserved.
           </p>
           <nav className="flex gap-4 sm:gap-6">
             <Link
